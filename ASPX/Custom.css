@@ -1,0 +1,114 @@
+.Panel {
+    background-color: rgba(2, 16, 56, 0.8);
+    
+}
+
+option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
+    background-color: rgb(2, 16, 56) !important;
+}
+
+option, select, textarea, input[type=password], input[type=text] {
+    background-color: rgb(2, 16, 56) !important;
+    border: solid 1px rgb(2, 16, 56) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 4px;
+}
+
+.RadToolTip_Default .rtWrapper .rtWrapperContent {
+    background-color: rgb(2, 16, 56) !important;
+    color: #fff !important;
+    border-color: rgb(2, 16, 56) !important;
+}
+
+option, select, textarea, input[type=password], input[type=text] {
+    background-color: rgb(1, 26, 98) !important;
+    border: solid 1px rgb(1, 26, 98) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 4px;
+}
+
+option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
+    background-color: rgb(1, 26, 98) !important;
+}
+
+.RadGrid_TCAdmin .rgNumPart a {
+    border: 1px solid rgb(1, 26, 98);
+    line-height: 20px;
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgNumPart a.rgCurrentPage, .RadGrid_TCAdmin .rgNumPart a.rgCurrentPage:hover {
+    border-color: rgb(2, 16, 56);
+    background: rgb(2, 16, 56);
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgNumPart a:hover {
+    border-color: rgb(2, 16, 56);
+    background: rgb(2, 16, 56);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:first-child .NotInstalled {
+    background-color: rgb(2, 16, 56);
+    border-bottom-left-radius: 10px;
+}
+
+.WorkshopActionContainer div:nth-child(2n) {
+    background-color: rgb(2, 16, 56);
+    border-bottom-right-radius: 10px;
+}
+
+.WorkshopActionContainer div:first-child .NotInstalled:hover {
+    background-color: rgb(1, 26, 98);
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:nth-child(2n):hover {
+    background-color: rgb(1, 26, 98);
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:first-child .Installed {
+    background-color: rgb(2, 16, 56);
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+.WorkshopActionContainer div:first-child .Installed:hover {
+    background-color: rgb(1, 26, 98);
+    border-bottom-left-radius: 10px;
+    border-color: red;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.IconTitleLine {
+    background: none !important;
+    background-position: bottom;
+    border-bottom: 1px solid;
+}
+
+.Meter .Bar {
+    background-color: #1062FE;
+    border-color: #1062FE;
+}
+
+.Meter {
+    background: rgb(2, 16, 56);
+    border-color: rgb(2, 16, 56);
+}
+
+.RadDock_TCAdmin fieldset {
+    border: 0.09em solid rgb(2, 16, 56);
+}
+
+.RadToolBarDropDown .rtbWrap {
+    background-color: rgb(1, 26, 98);
+    border-color: rgb(1, 26, 98);
+}

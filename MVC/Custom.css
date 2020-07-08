@@ -1,0 +1,207 @@
+.k-breadcrumb .k-breadcrumb-link {
+    color: #fff;
+
+}
+
+.k-breadcrumb .k-breadcrumb-link:hover, .k-breadcrumb .k-breadcrumb-link.k-state-hover {
+    color: #fff;
+    background-color: rgb(1, 26, 98);
+}
+
+.k-breadcrumb .k-breadcrumb-root-link:hover, .k-breadcrumb .k-breadcrumb-root-link.k-state-hover {
+    background-color: rgb(1, 26, 98);
+}
+
+.nav-fostrap li > a {
+    color: #fff;
+}
+
+.k-breadcrumb {
+    border-color: rgb(2, 16, 56);
+    color: #fff;
+    background-color: rgb(2, 16, 56);
+}
+
+option, select, textarea, input[type=password], input[type=text] {
+    background-color: rgb(1, 26, 98) !important;
+    border: solid 1px rgb(1, 26, 98) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 4px;
+}
+
+.nav-fostrap {
+    background-color: rgb(2, 16, 56);
+}
+
+.logo-container {
+    background-color: rgb(2, 16, 56);
+}
+
+.orange-button {
+    background-color: #011a62;
+    color: #fff;
+    background-image: unset;
+}
+
+.red-button {
+    background-color: #011a62;
+    color: #fff;
+    background-image: unset;
+}
+
+.orange-button:hover {
+    background-color: rgb(1, 26, 98);
+    border-color: rgb(1, 26, 98);
+}
+
+.red-button:hover {
+    background-color: rgb(1, 26, 98);
+    border-color: rgb(1, 26, 98);
+}
+
+.k-toolbar {
+    border-color: rgb(2, 16, 56);
+    color: #fff;
+    background-color: rgb(2, 16, 56);
+    box-shadow: none;
+    
+}
+
+.k-button {
+    border-color: rgb(2, 16, 56);
+    color: #fff;
+    background-color: rgb(2, 16, 56);
+}
+
+.k-button:hover, .k-button.k-state-hover {
+    border-color: rgb(1, 26, 98);
+    color: #fff;
+    background-color: rgb(1, 26, 98);
+}
+
+#sidebar > .links a:hover {
+    background-color: rgb(2, 16, 56);
+    border: 1px solid rgb(2, 16, 56);
+    transition: 0.3s;
+}
+
+.nav-fostrap li ul.dropdown li:hover {
+    background-color: rgb(2, 16, 56);
+    transition: 0.3s;
+}
+
+
+.RadToolTip_Default .rtWrapper .rtWrapperContent {
+    background-color: rgb(2, 16, 56) !important;
+    color: #fff;
+    border-color: rgb(2, 16, 56) !important;
+}
+
+@media only screen and (min-width: 901px) {
+#main .header-text {
+    margin: 0 5px 0px 10px;
+    padding: 4px 4px 4px 0px;
+    font-size: 16px;
+    font-weight: normal;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(1, 26, 98);
+    background-color: rgb(1, 26, 98);
+}
+}
+
+@media only screen and (min-width: 901px) {
+#sidebar fieldset:first-of-type legend {
+    margin: 0 5px 0px 5px;
+    padding: 4px 4px 4px 10px;
+    font-size: 16px;
+    font-weight: normal;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(1, 26, 98);
+    background-color: rgb(1, 26, 98);
+}
+}
+
+@media only screen and (min-width: 901px) {
+#footer #info {
+    margin-left: 0 !important;
+}
+}
+
+.k-progressbar {
+    color: #fff;
+    background-color: rgba(2, 16, 56, 0.7);
+}
+
+.k-progressbar .k-state-selected {
+    color: #fff;
+    background-color: #1062FE;
+}
+
+.green-label {
+    color: rgb(17, 196, 17);
+}
+
+.k-progressbar-horizontal {
+    width: 30em;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.k-i-notification:before {
+    color: white !important;
+}
+
+.k-i-unlock:before, .k-i-lock:before {
+    color: white !important;
+}
+
+.sidebar-switch {
+    color: #fff !important;
+}
+
+.supports-gravatar {
+    border-radius: 50%;
+}
+
+.k-tabstrip-items .k-link {
+    color: white;
+}
+
+.k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
+	border-color: #011a62;
+	color: #fff;
+	transition: 0.3s
+}
+
+.k-input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(227,239,252,.8);
+  /* Firefox */
+}
+.k-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(227,239,252,.8);
+}
+.k-input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(227,239,252,.8);
+}
+
+#session-split_wrapper > a, #toolbar-notifications {
+    text-transform: capitalize;
+}
+
+.k-breadcrumb .k-breadcrumb-root-link {
+    text-transform: capitalize;
+}
+
+
+@media only screen and (min-width: 901px) {
+#header .logo {
+    margin: 15px 6px 6px 16px;
+}
+}

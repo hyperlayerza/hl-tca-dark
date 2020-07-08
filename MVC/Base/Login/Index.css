@@ -1,0 +1,144 @@
+﻿BODY {
+    background: linear-gradient(135deg,#051866,#021038 80%);
+    color: rgba(224,232,255,.64);
+}
+
+#loginSection {
+    bottom: 45%;
+    height: 325px;
+    left: 0;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-width: 398px;
+}
+
+#loginSection .frame {
+    border: 1px solid #DEDFDE;
+    padding: 36px 48px 36px;
+    background: linear-gradient(#091f6e,#031557 99%);
+    border-color: #051866;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,.08);
+}
+
+#loginSection .k-dropdown,
+#loginSection .k-textbox {
+    width: 100%;
+}
+
+#loginSection input[type="submit"],
+#loginSection input[type="button"],
+#loginSection button {
+    width: 100%;
+}
+
+#loginSection input[type="checkbox"] {
+    width: 16px;
+}
+
+#loginSection .logo 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#loginSection .recover
+{
+    display:block;
+    margin-top: 10px;
+}
+
+#loginSection .field-validation-error {
+    display: block;
+}
+
+#loginSection .validation-summary-errors ul {
+    margin: 0;
+    padding: 0;
+}
+
+#loginSection .validation-summary-errors li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+}
+
+.builtInCaptcha br:nth-of-type(2),
+.builtInCaptcha br:first-of-type {
+    display: none;
+}
+
+.k-textbox {
+    background-color: rgba(224,232,255,.08);
+    border-color: transparent;
+}
+
+.k-textbox:hover {
+    background-color: rgba(224,232,255,.08);
+    border-color: transparent;
+}
+
+
+.k-textbox:focus {
+    background-color: rgba(224,232,255,.16)!important;
+    transition: .24s;
+    border-color: transparent;
+}
+
+
+.k-textbox:focus, .k-textbox.k-state-focus, .k-textbox.k-state-focused, .k-textarea:focus, .k-textarea.k-state-focus, .k-textarea.k-state-focused {
+    border-color:  rgba(224,232,255,.09);
+    color: #fff;
+    background-color:  rgba(224,232,255,.09);
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.08) !important;
+}
+
+option, select, textarea, input[type=password], input[type=text] {
+    background-color: transparent !important;
+    border: solid 1px transparent !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 4px;
+}
+
+ul {
+    padding-inline-start: 0px !important;
+}
+
+.k-button.k-primary {
+    color: #fff;
+    background-color: #1062fe;
+    border-color: #1062fe;
+    margin-bottom: 10% !important;
+}
+
+.k-button {
+    color: #fff;
+    background-color: #1062fe;
+    border-color: #1062fe;
+}
+.k-button:hover {
+    color: #fff;
+    background-color: #015abe;
+    border-color: #015abe;
+}
+
+.k-button.k-primary:hover, .k-button.k-primary.k-state-hover {
+    color: #fff;
+    background-color: #015abe;
+    border-color: #015abe;
+}
+
+.k-checkbox {
+    border-color: transparent;
+    color: #fff;
+    background-color: rgba(224,232,255,.08);
+}
+
+.k-checkbox:hover {
+    border-color: rgba(224,232,255,.08);
+    color: #fff;
+    background-color: rgba(224,232,255,.08);
+}

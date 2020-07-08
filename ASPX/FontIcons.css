@@ -1,0 +1,1318 @@
+﻿@import url("../../../../../3rdParty/fontawesome/css/all.min.css");
+
+/*Save ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarSave.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarSave.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    
+    position: absolute;
+    margin-left: -22px;
+
+    font-size: 18px;
+    color: #fff;
+    content: "\f0c7";
+}
+
+/*Delete ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarDelete.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarDelete.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f2ed";
+}
+
+/*Cancel ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarCancel.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarCancel.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f05e";
+}
+
+/*Play ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarPlay.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarPlay.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f04b";
+}
+
+/*Play ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarOK.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarOK.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f00c";
+}
+
+/*Info ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarInfo.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarInfo.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    
+    position: absolute;
+    margin-left: -22px;
+
+    font-size: 18px;
+    color: #fff;
+    content: "\f05a";
+}
+
+/*Refresh ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarRefresh.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarRefresh.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f2f1";
+}
+
+/*Database ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarRefresh.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Database18x18.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f1c0";
+}
+
+/*User Details ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/UserDetails16x16.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/UserDetails16x16.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -24px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f2bb";
+}
+
+/*All Users ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Users16x16.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Users16x16.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 15px;
+    color: #fff;
+    content: "\f0c0";
+}
+
+/*New ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarNew.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarNew.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -20px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f067";
+}
+
+/*Download ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarDownload.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarDownload.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -24px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f019";
+}
+
+/*Link ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarLink.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarLink.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -20px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f56d";
+}
+
+/*Upload ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarUpload.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarUpload.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -24px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f093";
+}
+
+/*Config ToolbarButton*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Config16x16.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Config16x16.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f54a";
+}
+
+/*Excel ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportExcel.gif"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportExcel.gif"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f1c3";
+}
+
+/*Word ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportWord.gif"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportWord.gif"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f1c2";
+}
+
+/*Word ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportText.gif"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Controls/Rad/Grid/ExportText.gif"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: white;
+    content: "\f15c";
+}
+
+/*Servers ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarServer.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarServer.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f233";
+}
+
+/*Games ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarGame.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarGame.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -25px;
+    font-size: 18px;
+color: #fff;
+content: "\f11b";
+}
+
+/*Reseller Packages ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarPackage.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarPackage.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f466";
+}
+
+/*Grid ToolbarButton*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarConfigure.png"] {
+    visibility: hidden;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarConfigure.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -22px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f1de";
+}
+
+/*Grid Settings > Configure Columns ToolbarButton*/
+ul > li > a > img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarGrid.png"] {
+    visibility: hidden;
+}
+
+ul > li > a >  img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarGrid.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: -32px;
+    font-size: 18px;
+    color: #fff;
+    content: "\f0db";
+}
+
+/*Grid Settings > Save ToolbarButton*/
+ul > li > a >  img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarSave.png"] + span:before {
+    margin-left: -30px;
+}
+
+/*Grid Settings > Reset ToolbarButton*/
+ul > li > a > img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/Buttons/ToolBarRefresh.png"] + span:before {
+    margin-left: -31px;
+}
+
+/*************/
+/*Large Icons*/
+/*************/
+
+/*User Details*/
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/UserDetails.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/UserDetails.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+
+    color: #fff;
+    content: "\f2bb";
+}
+
+/*Sub Users*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Users.png"] {
+    display: none !important;
+}
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Users.png"]+span:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    
+    content: "\f500";
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+/*Game Servers*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/GameServers.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/GameServers.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f11b";
+}
+
+/*Voice Servers*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Voice.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Voice.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+
+    color: #fff;
+    content: "\f590";
+}
+
+/*Server Files*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ServerFiles.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ServerFiles.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+
+    color: #fff;
+    content: "\f0a0";
+}
+
+/*Security Settings*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Security.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Security.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f2c1";
+}
+
+/*Mail Server Settings*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Mail.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Mail.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1d8";
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+/*Company Info*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Info.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Info.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f05a";
+}
+
+/*Mail Templates*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Variables.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Variables.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f658";
+}
+
+/*Languages*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Language.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Language.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1ab";
+}
+
+/*Themes*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Template.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Template.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f576";
+}
+
+/*Api Settings*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Api.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Api.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f085";
+}
+
+/*Tools*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Config.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Config.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f552";
+}
+
+/*Import v1 users*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ImportUsers.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ImportUsers.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f234";
+}
+
+/*Import v1 services*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ImportServices.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ImportServices.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1c0";
+}
+
+/*Global Variables*/
+a[href="../../../Interface/Game/GlobalGameVariables"] > span > span > span > img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Variables.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f074";
+}
+
+/*Global scripts*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Scripts.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Scripts.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f5fc";
+}
+
+/*Datacenter licenses*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ServerComponents.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ServerComponents.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1e6";
+}
+
+/*Import v1 ts services*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ImportTeamSpeakServices.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ImportTeamSpeakServices.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1c0";
+}
+
+/*Game and Voice*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Games.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Games.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f11b";
+}
+
+/*Query tool*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/GameStatus.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/GameStatus.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f21e";
+}
+
+/*Steam*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Steam.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/Steam.png"] + span:before {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1b7";
+}
+
+/*Datacenters*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Datacenters.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Datacenters.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f0ac";
+}
+
+/*Private networks*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Network.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Network.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f6ff";
+}
+
+/*Servers*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Servers.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Servers.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff; 
+    content: "\f233";
+}
+
+/*Server Files*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Drive.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Drive.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+
+    color: #fff;
+    content: "\f0a0";
+}
+
+/*remote db*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Database.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Database.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1c0";
+}
+
+/*Scheduled tasks*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/TaskScheduler/Calendar.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/TaskScheduler/Calendar.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f073";
+}
+
+/*Recurring tasks*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/TaskScheduler/Task.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/TaskScheduler/Task.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f1da";
+}
+
+/*Support settings*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Support/Support.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Support/Support.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f0f9";
+}
+
+/*Reseller packages*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Packages.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Packages.png"] + span:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f466";
+}
+
+/*Config Editor*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ConfigEditor.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/ConfigEditor.png"] + span:before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    color: #fff;
+    content: "\f298";
+}
+
+/*Custom Links*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Links.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/Base/Links.png"] + span:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    content: "\f35d";
+    color: #fff;
+}
+
+/*Config Files*/
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ConfigFile.png"] {
+    display: none !important;
+}
+
+img[src="/Aspx/App_Themes/MVC/Images/ControlPanel/MenuIcons/GameHosting/ConfigFile.png"] + span:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    font-size: 62px;
+    margin-bottom: 28px;
+    content: "\f1de";
+    color: #fff;
+}
+
+/*Workshop Update Button*/
+.DownloadButton{
+    background-image: unset;
+}
+
+.DownloadButtonSpan:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    content: "\f019";
+}
+
+/*Workshop Reinstall Button*/
+.RefreshButton {
+    background-image: unset;
+}
+
+.RefreshButtonSpan:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    content: "\f2f1";
+}
+
+/*Workshop Reinstall Button*/
+.DeleteButton {
+    background-image: unset;
+}
+
+.DeleteButtonSpan:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    stroke: black;
+    stroke-width: 1px;
+    position: absolute;
+    margin-left: 5px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #fff;
+    content: "\f2ed";
+}
