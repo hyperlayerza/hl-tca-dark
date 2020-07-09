@@ -49,6 +49,7 @@
 {
     display:block;
     margin-top: 10px;
+    transition: 0.3s;
 }
 
 #loginSection .field-validation-error {
@@ -141,4 +142,31 @@ ul {
     border-color: rgba(224,232,255,.08);
     color: #fff;
     background-color: rgba(224,232,255,.08);
+}
+
+.remember-me {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.f-pass {
+    text-align: center;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.text-light {
+    color: rgba(224,232,255,.8);
+    text-align: center;
+    font-family: inherit;
+    font-size: 14px;
+}
+.logincontainer-footer {
+    background-color: transparent;
+    margin-top: 20px;
+    border-top: 0;
+}
+
+a:hover {
+    transition: 0.3s; 
 }

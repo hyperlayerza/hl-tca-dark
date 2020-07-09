@@ -26,7 +26,7 @@
                         @if (Model.RequireToken)
                         {
                             @(Html.Kendo().TextBoxFor(m => m.UserName)
-                                .HtmlAttributes(new { @readonly = string.Empty }))
+                                .HtmlAttributes(new { placeholder="Enter username", @readonly = string.Empty }))
                         }
                         else
                         {
@@ -46,6 +46,9 @@
                                 .HtmlAttributes(new { type = "password" })
                                 .Value(Model.Password))
                             @Html.ValidationMessageFor(m => m.Password)
+                        </li>
+                        <li class="remember-me">
+                        @Html.Kendo().CheckBoxFor(m => m.RememberMe)
                         </li>
                         if (Model.Captcha == TCAdmin.SDK.Security.CaptchaType.ReCaptcha)
                         {
@@ -92,9 +95,6 @@
                         </li>
                     } -->
                     <li>
-                        @Html.Kendo().CheckBoxFor(m => m.RememberMe)
-                    </li>
-                    <li>
                         @Html.ValidationSummary(true)
                     </li>
                 </ul>
@@ -109,6 +109,9 @@
                 @Html.ActionLink(Resources.Base.Login.ForgotYourPassword, "PasswordRecovery", null, new { @class = "recover" })
             </div>
         }
+    </div>
+    <div class="logincontainer-footer">
+        <div class="text-light">Not a member yet? <a href="https://client.hyperlayer.co.za/register.php">Create a New Account</a></div>
     </div>
 </section>
 
