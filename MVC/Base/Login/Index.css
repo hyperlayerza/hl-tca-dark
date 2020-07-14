@@ -7,8 +7,8 @@
     bottom: 45%;
     height: 325px;
     left: 0;
-    margin: auto;
-    margin-top: 10%;
+    margin: 0 auto;
+    margin-top: auto;
     position: absolute;
     right: 0;
     top: 0;
@@ -75,10 +75,20 @@
 .k-textbox {
     background-color: rgba(224,232,255,.08);
     border-color: transparent;
+    display: block;
+    height: 42px;
+    font-size: 14px;
+    line-height: 24px;
+    background-image: none;
+    border-radius: 2px;
+    -webkit-transition: border-color .24s ease,box-shadow .24s ease;
+    -o-transition: border-color .24s ease,box-shadow .24s ease;
+    transition: border-color .24s ease,box-shadow .24s ease;
 }
 
 .k-textbox:hover {
     background-color: rgba(224,232,255,.08);
+    outline: 0;
     border-color: transparent;
 }
 
