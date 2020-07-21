@@ -205,3 +205,9 @@ option, select, textarea, input[type=password], input[type=text] {
     margin: 15px 6px 6px 16px;
 }
 }
+
+.k-upload .k-upload-files .k-file-size, .k-upload .k-upload-files .k-file-information, .k-upload .k-upload-files .k-file-validation-message {
+    font-size: 12px;
+    line-height: 1;
+    color: #fff;
+}
