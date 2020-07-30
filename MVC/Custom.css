@@ -226,7 +226,7 @@ option, select, textarea, input[type=password], input[type=text] {
 }
 
 a:link, a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
 }
 
 .k-switch-on .k-switch-container {
@@ -282,4 +282,33 @@ a:link, a:visited {
 
 .k-pager-numbers .k-link:hover {
     color: #fff;
+}
+
+.k-card {
+
+    background-color: rgb(2, 16, 56);
+}
+
+div.k-grid-norecords {
+    background: rgb(2, 16, 56);
+}
+.k-textbox::placeholder {
+    color: rgba(227,239,252,.8);
+}
+
+.k-grid-content.k-auto-scrollable {
+    background-color: rgb(2, 16, 56);
+}
+.k-grid-content tr:last-child>td {
+    border-bottom-width: 0;
+    background: rgb(1, 26, 98);
+}
+
+.text-primary {
+    color: #fff !important;
+}
+
+.k-grid-header {
+    border-color: rgb(1, 26, 98);
+
 }
