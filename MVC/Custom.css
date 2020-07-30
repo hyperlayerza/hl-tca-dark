@@ -215,3 +215,71 @@ option, select, textarea, input[type=password], input[type=text] {
 .k-upload .k-dropzone .k-upload-status, .k-upload .k-dropzone .k-dropzone-hint {
     color: #fff;
 }
+
+.k-widget {
+    border-style: none !important;
+}
+
+.k-progressbar>.k-state-selected {
+    border-style: none !important;
+
+}
+
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.k-switch-on .k-switch-container {
+    color: #fff;
+    background-color: #1062FE;
+}
+
+.k-switch-on .k-switch-container:hover {
+    color: #fff;
+    background-color: #1062FE;
+}
+
+.k-switch-off .k-switch-container {
+    color: #000;
+    background-color: rgb(2, 16, 56);
+}
+
+.k-switch-off .k-switch-container:hover {
+    color: #000;
+    background-color: rgb(2, 16, 56);
+}
+
+.k-badge-info {
+    border-color: #1062FE;
+    color: #fff;
+    background-color: #1062FE;
+}
+
+.RadTabStrip .rtsLevel1 .rtsTxt, .RadTabStripVertical .rtsLevel1 .rtsTxt {
+    color: #fff;
+}
+
+.dropdown-wrapper, .RadInput_Default, .textbox-wrapper {
+    background-color: rgb(2, 16, 56) !important;
+
+}
+
+.HyperLink, .HyperLinkCommand {
+    color: #fff !important];
+}
+
+.k-pager-nav.k-link, .k-pager-refresh {
+    border-color: rgba(255,255,255,0.125);
+    color: #fff;
+    background-color: #011a62;
+}
+
+.k-pager-numbers .k-link {
+    border-color: rgba(255,255,255,0.125);
+    color: #fff;
+    background-color: #011a62;
+}
+
+.k-pager-numbers .k-link:hover {
+    color: #fff;
+}

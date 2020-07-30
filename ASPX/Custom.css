@@ -3,32 +3,22 @@
     
 }
 
-option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
-    background-color: rgb(2, 16, 56) !important;
-}
-
 option, select, textarea, input[type=password], input[type=text] {
     background-color: rgb(2, 16, 56) !important;
     border: solid 1px rgb(2, 16, 56) !important;
-    color: rgb(255, 255, 255) !important;
-    border-radius: 4px;
-}
-
-.RadToolTip_Default .rtWrapper .rtWrapperContent {
-    background-color: rgb(2, 16, 56) !important;
-    color: #fff !important;
-    border-color: rgb(2, 16, 56) !important;
-}
-
-option, select, textarea, input[type=password], input[type=text] {
-    background-color: rgb(1, 26, 98) !important;
-    border: solid 1px rgb(1, 26, 98) !important;
-    color: rgb(255, 255, 255) !important;
-    border-radius: 4px;
 }
 
 option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
-    background-color: rgb(1, 26, 98) !important;
+    background-color: rgb(2, 16, 56) !important;
+}
+
+option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
+    background-color: rgb(2, 16, 56) !important;
+}
+
+.dropdown-wrapper select, .RadInput_Default input, .textbox-wrapper textarea, .textbox-wrapper input, .textbox-wrapper textarea:hover, .dropdown-wrapper select:hover {
+    background-color: rgb(2, 16, 56)  !important;
+    border: solid 1px rgb(2, 16, 56)  !important;
 }
 
 .RadGrid_TCAdmin .rgNumPart a {
@@ -111,4 +101,27 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 .RadToolBarDropDown .rtbWrap {
     background-color: rgb(1, 26, 98);
     border-color: rgb(1, 26, 98);
+}
+
+.HyperLink, .HyperLinkCommand {
+    color: #fff;
+
+}
+
+.HyperLink, .HyperLinkCommand:hover {
+    color: #fff;
+
+}
+
+.RadTabStripTop_TCAdmin .rtsSelected, .RadTabStripTop_TCAdmin .rtsSelected:hover {
+    color: #fff !important;
+
+}
+
+.RadTabStrip .rtsLevel1 .rtsTxt, .RadTabStripVertical .rtsLevel1 .rtsTxt {
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgFilterBox {
+    color: #fff;
 }

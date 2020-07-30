@@ -1,30 +1,30 @@
 /* This file is used to create ThemeBuilder.css when the theme is saved. It should only contain css that affects colors and borders. */
 /* If your theme uses a different css make a copy of this file and place it in your theme's folder                                   */
 BODY {
-    background-color: rgb(2, 16, 56);
+    background-color: rgb(1, 26, 98);
     color: rgb(255, 255, 255);
 }
 
 #loginSection > .frame {
-    background-color: rgb(2, 16, 56);
+    background-color: rgb(1, 26, 98);
 }
 
 #main .header-text {
-    background-color: rgb(2, 16, 56);
+    background-color: rgb(1, 26, 98);
     color: rgb(255, 255, 255);
 }
 
 #sidebar fieldset:first-of-type legend {
-    background-color: rgb(2, 16, 56);
+    background-color: rgb(1, 26, 98);
     color: rgb(255, 255, 255);
 }
 
 a:link, a:visited {
-    color: rgba(227, 239, 252, 0.8);
+    color: rgb(1, 26, 98);
 }
 
 a:active, a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 6, 22);
 }
 
 .nav-fostrap li:hover {
@@ -50,7 +50,7 @@ a:active, a:hover {
     }
 
     .nav-fostrap li ul.dropdown li:hover {
-        background-color: rgb(2, 16, 56);
+        background-color: rgb(1, 26, 98);
     }
 
         .nav-fostrap li ul.dropdown li:hover a {
@@ -59,34 +59,34 @@ a:active, a:hover {
 
 #sidebar > .links a:hover {
     background-color: rgba(1,26,98,0.08);
-    border: 1px solid rgb(2, 16, 56);
+    border: 1px solid rgb(1, 26, 98);
 }
 
 .info-button:hover,
 .info-button {
-    background-color: rgb(207, 224, 255);
-    color: rgb(255, 255, 255);
+    background-color: rgb(209, 236, 241);
+    color: rgb(12, 84, 96);
     background-image: unset;
 }
 
 .red-button:hover,
 .red-button {
-    background-color: rgb(249, 204, 209);
-    color: rgb(255, 255, 255);
+    background-color: rgb(248, 215, 218);
+    color: rgb(114, 28, 36);
     background-image: unset;
 }
 
 .orange-button:hover,
 .orange-button {
     background-color: rgb(255, 243, 205);
-    color: rgb(255, 255, 255);
+    color: rgb(133, 100, 4);
     background-image: unset;
 }
 
 .green-button:hover,
 .green-button {
-    background-color: rgb(212, 250, 212);
-    color: rgb(255, 255, 255);
+    background-color: rgb(212, 237, 218);
+    color: rgb(21, 87, 36);
     background-image: unset;
 }
 
@@ -155,7 +155,7 @@ a:active, a:hover {
 @media only screen and (max-width:900px) {
     .nav-fostrap,
     .nav-bg-fostrap {
-        background-color: rgb(2, 16, 56);
+        background-color: rgb(1, 26, 98);
     }
 
         .nav-bg-fostrap .title-mobile {
@@ -164,7 +164,7 @@ a:active, a:hover {
 
     #sidebar ul,
     #sidebar {
-        background-color: rgb(2, 16, 56);
+        background-color: rgb(1, 26, 98);
     }
 }
 
@@ -173,7 +173,7 @@ a:active, a:hover {
         content: "";
         float: left;
         margin-top: -16px;
-        border-bottom: 1px solid rgb(2, 16, 56);
+        border-bottom: 1px solid rgb(1, 26, 98);
         width: 220px;
         margin-left: 10px;
     }
@@ -222,7 +222,7 @@ li > ul.dropdown {
 }
 
 .sidebar-switch {
-    color: rgb(2, 16, 56);
+    color: rgb(1, 26, 98);
 }
 
 .Service_FastDownload #aspxcontent,
@@ -238,7 +238,7 @@ li > ul.dropdown {
 
 @media only screen and (min-width:901px) {
     .primary-color-sesion-toolbar .search-container.k-toolbar {
-        background-color: rgb(2, 16, 56);
+        background-color: rgb(1, 26, 98);
     }
 
     .primary-color-sidebar #main .header-text {
@@ -253,7 +253,7 @@ li > ul.dropdown {
     }
 
     .primary-color-sidebar .nav-fostrap {
-        background-color: rgb(2, 16, 56);
+        background-color: rgb(1, 26, 98);
     }
 
         .primary-color-sidebar .nav-fostrap li > a {
