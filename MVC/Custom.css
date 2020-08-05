@@ -265,7 +265,7 @@ a:link, a:visited {
 }
 
 .HyperLink, .HyperLinkCommand {
-    color: #fff !important];
+    color: #fff !important;
 }
 
 .k-pager-nav.k-link, .k-pager-refresh {
@@ -304,11 +304,15 @@ div.k-grid-norecords {
     background: rgb(1, 26, 98);
 }
 
-.text-primary {
+#dbtext {
     color: #fff !important;
 }
 
 .k-grid-header {
     border-color: rgb(1, 26, 98);
 
+}
+
+#footer {
+    margin: 0 0;
 }

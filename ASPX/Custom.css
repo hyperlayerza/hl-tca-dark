@@ -125,3 +125,7 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 .RadGrid_TCAdmin .rgFilterBox {
     color: #fff;
 }
+
+.LabelOn {
+    color: #31ff31 !important;
+}
