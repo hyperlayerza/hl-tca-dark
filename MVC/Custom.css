@@ -5,11 +5,11 @@
 
 .k-breadcrumb .k-breadcrumb-link:hover, .k-breadcrumb .k-breadcrumb-link.k-state-hover {
     color: #fff;
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
 }
 
 .k-breadcrumb .k-breadcrumb-root-link:hover, .k-breadcrumb .k-breadcrumb-root-link.k-state-hover {
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
 }
 
 .nav-fostrap li > a {
@@ -50,13 +50,13 @@ option, select, textarea, input[type=password], input[type=text] {
 }
 
 .orange-button:hover {
-    background-color: rgb(1, 26, 98);
-    border-color: rgb(1, 26, 98);
+    background-color: #015ABE;
+    border-color: #015ABE;
 }
 
 .red-button:hover {
-    background-color: rgb(1, 26, 98);
-    border-color: rgb(1, 26, 98);
+    background-color: #015ABE;
+    border-color: #015ABE;
 }
 
 .k-toolbar {
@@ -74,19 +74,19 @@ option, select, textarea, input[type=password], input[type=text] {
 }
 
 .k-button:hover, .k-button.k-state-hover {
-    border-color: rgb(1, 26, 98);
+    border-color: #015ABE;
     color: #fff;
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
 }
 
 #sidebar > .links a:hover {
-    background-color: rgb(2, 16, 56);
-    border: 1px solid rgb(2, 16, 56);
+    background-color: #015ABE;
+    border: 1px solid #015ABE;
     transition: 0.3s;
 }
 
 .nav-fostrap li ul.dropdown li:hover {
-    background-color: rgb(2, 16, 56);
+    background-color: #015ABE;
     transition: 0.3s;
 }
 
@@ -138,7 +138,7 @@ option, select, textarea, input[type=password], input[type=text] {
 
 .k-progressbar .k-state-selected {
     color: #fff;
-    background-color: #1062FE;
+    background-color: #015ABE;
 }
 
 .green-label {
@@ -172,7 +172,7 @@ option, select, textarea, input[type=password], input[type=text] {
 }
 
 .k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
-	border-color: #011a62;
+	border-color: #015ABE;
 	color: #fff;
 	transition: 0.3s
 }
@@ -190,6 +190,7 @@ option, select, textarea, input[type=password], input[type=text] {
   /* Microsoft Edge */
   color: rgba(227,239,252,.8);
 }
+  
 
 #session-split_wrapper > a, #toolbar-notifications {
     text-transform: capitalize;
@@ -231,12 +232,12 @@ a:link, a:visited {
 
 .k-switch-on .k-switch-container {
     color: #fff;
-    background-color: #1062FE;
+    background-color: #015ABE;
 }
 
 .k-switch-on .k-switch-container:hover {
     color: #fff;
-    background-color: #1062FE;
+    background-color: #015ABE;
 }
 
 .k-switch-off .k-switch-container {
@@ -250,9 +251,9 @@ a:link, a:visited {
 }
 
 .k-badge-info {
-    border-color: #1062FE;
+    border-color: #015ABE;
     color: #fff;
-    background-color: #1062FE;
+    background-color: #015ABE;
 }
 
 .RadTabStrip .rtsLevel1 .rtsTxt, .RadTabStripVertical .rtsLevel1 .rtsTxt {
@@ -293,7 +294,7 @@ div.k-grid-norecords {
     background: rgb(2, 16, 56);
 }
 .k-textbox::placeholder {
-    color: rgba(227,239,252,.8);
+    color: rgba(227,239,252,.8) !important;
 }
 
 .k-grid-content.k-auto-scrollable {
@@ -315,4 +316,22 @@ div.k-grid-norecords {
 
 #footer {
     margin: 0 0;
+}
+
+.k-button.k-primary:hover, .k-button.k-primary.k-state-hover {
+    border-color: #015ABE;
+    color: #fff;
+    background-color: #015ABE;
+}
+
+.k-dropdown .k-dropdown-wrap:hover {
+    border-color: #011a62;
+    color: #fff;
+    background-color: #011a62;
+}
+
+.k-textbox, .k-textarea {
+    border-color: #011a62;
+    color: #fff;
+    background-color: #011a62;
 }

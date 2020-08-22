@@ -51,14 +51,14 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 }
 
 .WorkshopActionContainer div:first-child .NotInstalled:hover {
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
     border-bottom-left-radius: 10px;
     color: #fff;
     transition: 0.3s;
 }
 
 .WorkshopActionContainer div:nth-child(2n):hover {
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
     border-bottom-right-radius: 10px;
     color: #fff;
     transition: 0.3s;
@@ -71,9 +71,9 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 }
 
 .WorkshopActionContainer div:first-child .Installed:hover {
-    background-color: rgb(1, 26, 98);
+    background-color: #015ABE;
     border-bottom-left-radius: 10px;
-    border-color: red;
+    border-color: #015ABE;
     color: #fff;
     transition: 0.3s;
 }
@@ -85,8 +85,8 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 }
 
 .Meter .Bar {
-    background-color: #1062FE;
-    border-color: #1062FE;
+    background-color: #015ABE;
+    border-color: #015ABE;
 }
 
 .Meter {
@@ -101,6 +101,12 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 .RadToolBarDropDown .rtbWrap {
     background-color: rgb(1, 26, 98);
     border-color: rgb(1, 26, 98);
+}
+
+.RadToolBar .rtbWrap:hover {
+    outline: 0;
+    background-color: #015ABE;
+    transition: 0.3s;
 }
 
 .HyperLink, .HyperLinkCommand {
@@ -128,4 +134,8 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 
 .LabelOn {
     color: #31ff31 !important;
+}
+
+.RadComboBox_TCAdmin input[type=text] {
+    color: #fff;
 }
