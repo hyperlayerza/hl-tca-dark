@@ -330,8 +330,24 @@ div.k-grid-norecords {
     background-color: #011a62;
 }
 
-.k-textbox, .k-textarea {
+.k-textarea {
     border-color: #011a62;
     color: #fff;
     background-color: #011a62;
+}
+
+.k-textbox:focus, .k-textbox.k-state-focus, .k-textbox.k-state-focused, .k-textarea:focus, .k-textarea.k-state-focus, .k-textarea.k-state-focused {
+    border-color: #011a62;
+    color: #fff;
+    background-color: #011a62;
+    box-shadow: 0 0 0 0.2rem rgba(2,59,224,0.5);
+}
+
+fieldset {
+    padding-left: 10px;
+}
+
+.k-splitbar {
+    color: #fff;
+    background-color: #015ABE;
 }

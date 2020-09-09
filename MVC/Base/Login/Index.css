@@ -4,7 +4,7 @@
 }
 
 #loginSection {
-    bottom: 45%;
+    bottom: 53%;
     height: 325px;
     left: 0;
     margin: 0 auto;
@@ -179,4 +179,97 @@ ul {
 
 a:hover {
     transition: 0.3s; 
+}
+
+.divider .divider-title {
+    background: #031557;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: #dcddde;
+}
+
+.divider {
+    border-top: 1px solid #dcddde;
+    display: block;
+    line-height: 1px;
+    margin: 15px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.btn-Discord {
+    background-color: #7289DA;
+    border-color: #7289DA;
+    color: #dcddde !important;
+    width: 85%;
+}
+.btn-Discord:hover {
+    background-color: #5470d2;
+    border-color: #4a67cf;
+}
+
+.btn-Google {
+    background-color: #4285f4;
+    border-color: #4285f4;
+    margin-top: 5%;
+    color: #dcddde !important;
+    width: 85%;
+}
+
+.btn-Github {
+    background-color: #dcddde;
+    border-color: #000;
+    color: #000 !important;
+    margin-top: 5%;
+    width: 85%;
+}
+
+.btn-Github:hover {
+    background-color: #fff;
+}
+
+.btn-Facebook, .btn-Facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    margin-top: 5%;
+    color: #dcddde !important;
+    width: 85%;
+}
+
+.btn-Whmcs {
+    background-color: #288feb;
+    border-color: #288feb;
+}
+
+.btn-Facebook:hover {
+    background-color: #2d88ff;
+    border-color: #2d88ff;
+}
+
+.fa-discord:before {
+    content: "\f392";
+    font-size: 20px;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    font-size: 20px;
+}
+
+.fa-google:before {
+    content: "\f1a0";
+    font-size: 20px;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    font-size: 20px;
+}
+
+.btn-Whmcs img {
+    width: 20px;
 }
