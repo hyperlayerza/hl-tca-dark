@@ -73,6 +73,12 @@ option, select, textarea, input[type=password], input[type=text] {
     background-color: rgb(2, 16, 56);
 }
 
+.k-button.k-primary {
+    border-color: rgb(2, 16, 56);
+    color: #fff;
+    background-color: rgb(2, 16, 56);
+}
+
 .k-button:hover, .k-button.k-state-hover {
     border-color: #015ABE;
     color: #fff;
@@ -350,4 +356,22 @@ fieldset {
 .k-splitbar {
     color: #fff;
     background-color: #015ABE;
+}
+
+.k-i-upload:before {
+    color: #fff !important;
+}
+
+.k-i-folder-open:before, .k-i-folder-add:before, .k-i-folder:before {
+    color: #fff !important;
+}
+
+.k-window-actions {
+    padding-top: 10px;
+}
+
+.k-grid tbody {
+    text-align: left;
+    border-color: #011a62;
+    background-color: #011a62;
 }

@@ -1,0 +1,84 @@
+﻿@using TCAdmin.SDK.Mail
+@using TCAdminOAuth.Models
+@{
+    var companyInfo = new CompanyInfo();
+}
+
+<div class="cards-container">
+    @foreach (var providerName in Enum.GetNames(typeof(OAuthProvider)))
+    {
+        var provider = providerName.ParseToProviderEnum();
+        if (!provider.ToBase().GetConfiguration().Enabled)
+        {
+            continue;
+        }
+        <text>
+            @if (provider == OAuthProvider.Whmcs)
+                {
+                <div class="k-card">
+                        <div class="k-card-header">
+                            <h5 class="k-card-title">Hyper Layer</h5>
+                    </div>
+                    <img class="k-card-image" src="/Views/Default/TCAdminOAuth.Controllers/Images/@(providerName)_banner.png"/>
+                        <div class="k-card-body">
+                            <p>Link your <strong>@companyInfo.CompanyName billing</strong> and <strong>Game Control Panel</strong> together!</p>
+                        </div>
+                    <div class="k-card-actions k-card-actions-stretched">
+                         @if (provider.CurrentUserIsSynced())
+                        {
+                            <span class="k-card-action">
+                                <a href="/OAuth/Unlink?provider=@providerName" class="k-button k-flat k-primary">Unlink</a>
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="k-card-action">
+                                <a href="/OAuth/Login?provider=@providerName" class="k-button k-flat k-primary">Link</a>
+                            </span>
+                        }
+                    </div>
+                </div>
+
+                    continue;
+                }
+
+            <div class="k-card">
+                <div class="k-card-header">
+                    <h5 class="k-card-title">@providerName</h5>
+                </div>
+                <img class="k-card-image" src="/Views/Default/TCAdminOAuth.Controllers/Images/@(providerName)_banner.png"/>
+                <div class="k-card-body">
+                    <p>Link your <strong>@providerName</strong> and <strong>@companyInfo.CompanyName</strong> together!</p>
+                </div>
+                <div class="k-card-actions k-card-actions-stretched">
+                    @if (provider.CurrentUserIsSynced())
+                    {
+                        <span class="k-card-action">
+                            <a href="/OAuth/Unlink?provider=@providerName" class="k-button k-flat k-primary">Unlink</a>
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="k-card-action">
+                            <a href="/OAuth/Login?provider=@providerName" class="k-button k-flat k-primary">Link</a>
+                        </span>
+                    }
+                </div>
+            </div>
+        </text>
+    }
+
+</div>
+
+<style>
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+    .k-card {
+        width: 285px;
+        margin: 2%;
+    }
+</style>
