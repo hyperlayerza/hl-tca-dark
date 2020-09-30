@@ -98,6 +98,11 @@
             if ($(this).attr("unread")) {
                 $("#badge-notifications").css("display", "flex");
                 $("#badge-notifications").html($(this).attr("unread"));
+                if ($(this).attr("unread") > 0) {
+                    $("#badge-notifications").parent().addClass("has-notifications")
+                } else {
+                    $("#badge-notifications").parent().addClass("no-notifications")
+                }
             }
         });
 
@@ -261,11 +266,24 @@
         $("#sidebar").css("min-width", "unset");
     }
 
+    function resizeBody() {
+        let interval = setInterval(function () {
+            bodyheight = $("body").css("min-height").replace("px", "");
+            navheight = $(".nav-fostrap > ul").outerHeight(true)
+            if (bodyheight == navheight) {
+                clearInterval(interval);
+            } else {
+                $("body").css("min-height", $(".nav-fostrap > ul").outerHeight(true));
+            }
+        }, 20)
+    }
+    resizeBody();
+
     //disable default mouse hover on main menu
     $(".nav-fostrap > ul > li").addClass("nohover");
 
     //Handle menu clicks
-    $(".nav-fostrap > ul > li").click(function () {
+    $(".nav-fostrap > ul > li").click(function (e) {
         $this = $(this);
 
         //Must have children
@@ -287,6 +305,7 @@
         });
 
         createCookie("_sideBarState", state, 365);
+        resizeBody();
     })
 
     $(".nav-fostrap > ul > li > ul").click(function (e) {
