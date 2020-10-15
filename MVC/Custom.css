@@ -188,6 +188,7 @@ option, select, textarea, input[type=password], input[type=text] {
 
 .k-tabstrip-items .k-link {
     color: white;
+    background-color: rgb(1, 26, 98);
 }
 
 .k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
@@ -196,16 +197,16 @@ option, select, textarea, input[type=password], input[type=text] {
 	transition: 0.3s
 }
 
-.k-input::placeholder {
+.k-input::placeholder, .k-textbox>input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgba(227,239,252,.8);
   /* Firefox */
 }
-.k-input:-ms-input-placeholder {
+.k-input:-ms-input-placeholder, .k-textbox>input::placeholder {
   /* Internet Explorer 10-11 */
   color: rgba(227,239,252,.8);
 }
-.k-input::-ms-input-placeholder {
+.k-input::-ms-input-placeholder,.k-textbox>input::placeholder {
   /* Microsoft Edge */
   color: rgba(227,239,252,.8);
 }
@@ -269,7 +270,7 @@ a:link, a:visited {
     background-color: rgb(2, 16, 56);
 }
 
-.k-badge-info {
+.k-badge-secondary {
     border-color: #015ABE;
     color: #fff;
     background-color: #015ABE;
@@ -324,7 +325,7 @@ div.k-grid-norecords {
     background: rgb(1, 26, 98);
 }
 
-#dbtext {
+#dbAllowinner, #dbLocationsinner, #dbConfig, #dbManage {
     color: #fff !important;
 }
 
