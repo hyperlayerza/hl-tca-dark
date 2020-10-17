@@ -1,25 +1,26 @@
 ﻿@using TCAdmin.SDK.Mail
+@using TCAdminOAuth.Configurations
 @using TCAdminOAuth.Models
+@using Alexr03.Common.TCAdmin.Permissions
 @{
-    var companyInfo = new CompanyInfo();
+    var isOAuthError = Request["OAuthError"] != null;
+    CompanyInfo companyInfo;
+    using (var securityBypass = new SecurityBypass(true))
+    {
+        companyInfo = new CompanyInfo();
+    }
 }
 
 <div class="cards-container">
-    @foreach (var providerName in Enum.GetNames(typeof(OAuthProvider)))
+    @foreach (var provider in OAuthProvider.GetAll().Where(provider => provider.Configuration.Parse<OAuthProviderConfiguration>().Enabled))
     {
-        var provider = providerName.ParseToProviderEnum();
-        if (!provider.ToBase().GetConfiguration().Enabled)
-        {
-            continue;
-        }
-        <text>
-            @if (provider == OAuthProvider.Whmcs)
+        if(provider.Name == "Whmcs")
                 {
                 <div class="k-card">
                         <div class="k-card-header">
                             <h5 class="k-card-title">Hyper Layer</h5>
                     </div>
-                    <img class="k-card-image" src="/Views/Default/TCAdminOAuth.Controllers/Images/@(providerName)_banner.png"/>
+                    <img class="k-card-image" src="https://shadow.gnetworx.cloud/shad0w-s3/201017-05058Sne.png"/>
                         <div class="k-card-body">
                             <p>Link your <strong>@companyInfo.CompanyName billing</strong> and <strong>Game Control Panel</strong> together!</p>
                         </div>
@@ -27,13 +28,13 @@
                          @if (provider.CurrentUserIsSynced())
                         {
                             <span class="k-card-action">
-                                <a href="/OAuth/Unlink?provider=@providerName" class="k-button k-flat k-primary">Unlink</a>
+                                <a href="/OAuth/Unlink/@provider.Id" class="k-button k-flat k-primary">Unlink</a>
                             </span>
                         }
                         else
                         {
                             <span class="k-card-action">
-                                <a href="/OAuth/Login?provider=@providerName" class="k-button k-flat k-primary">Link</a>
+                                <a href="/OAuth/Login/@provider.Id" class="k-button k-flat k-primary">Link</a>
                             </span>
                         }
                     </div>
@@ -44,29 +45,29 @@
 
             <div class="k-card">
                 <div class="k-card-header">
-                    <h5 class="k-card-title">@providerName</h5>
+                    <h5 class="k-card-title">@provider.Name</h5>
                 </div>
-                <img class="k-card-image" src="/Views/Default/TCAdminOAuth.Controllers/Images/@(providerName)_banner.png"/>
+                <img class="k-card-image" src="/Views/Default/TCAdminOAuth.Controllers/Images/@(provider.Name)_banner.png"/>
                 <div class="k-card-body">
-                    <p>Link your <strong>@providerName</strong> and <strong>@companyInfo.CompanyName</strong> together!</p>
+                    <p>Link your <strong>@provider.Name</strong> and <strong>@companyInfo.CompanyName</strong> together!</p>
                 </div>
                 <div class="k-card-actions k-card-actions-stretched">
                     @if (provider.CurrentUserIsSynced())
                     {
                         <span class="k-card-action">
-                            <a href="/OAuth/Unlink?provider=@providerName" class="k-button k-flat k-primary">Unlink</a>
+                           <a href="/OAuth/Unlink/@provider.Id" class="k-button k-flat k-primary">Unlink</a>
                         </span>
                     }
                     else
                     {
                         <span class="k-card-action">
-                            <a href="/OAuth/Login?provider=@providerName" class="k-button k-flat k-primary">Link</a>
+                            <a href="/OAuth/Login/@provider.Id" class="k-button k-flat k-primary">Link</a>
                         </span>
                     }
                 </div>
             </div>
-        </text>
     }
+
 
 </div>
 
