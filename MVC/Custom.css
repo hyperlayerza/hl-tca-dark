@@ -92,10 +92,24 @@ option, select, textarea, input[type=password], input[type=text] {
     background-color: rgb(2, 16, 56);
 }
 
+.k-flat {
+    border-color: rgb(2, 16, 56) !important;
+    color: #fff !important;
+    background-color: rgb(2, 16, 56) !important;
+}
+
 .k-button:hover, .k-button.k-state-hover {
     border-color: #015ABE;
     color: #fff;
     background-color: #015ABE;
+    
+}
+
+.k-flat:hover, .k-flat {
+    border-color: #015ABE !important;
+    color: #fff !important;
+    background-color: #015ABE !important;
+    transition: 0.3s !important;
 }
 
 #sidebar > .links a:hover {
