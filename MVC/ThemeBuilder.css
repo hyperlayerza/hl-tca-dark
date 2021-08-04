@@ -1,30 +1,27 @@
-/* This file is used to create ThemeBuilder.css when the theme is saved. It should only contain css that affects colors and borders. */
-/* If your theme uses a different css make a copy of this file and place it in your theme's folder                                   */
+/* This file is used to create ThemeBuilder.css when the theme is saved. It should only contain css to affects colors. */
+/* If your theme uses a different css make a copy of this file and place it in your theme's folder                     */
+HTML,
 BODY {
-    background-color: rgb(1, 26, 98);
+    background-color: rgb(2, 16, 56);
     color: rgb(255, 255, 255);
 }
 
-#loginSection > .frame {
-    background-color: rgb(1, 26, 98);
-}
-
 #main .header-text {
-    background-color: rgb(1, 26, 98);
+    background-color: rgb(16, 98, 254);
     color: rgb(255, 255, 255);
 }
 
 #sidebar fieldset:first-of-type legend {
-    background-color: rgb(1, 26, 98);
+    background-color: rgb(16, 98, 254);
     color: rgb(255, 255, 255);
 }
 
 a:link, a:visited {
-    color: rgb(1, 26, 98);
+    color: rgb(2, 117, 216);
 }
 
 a:active, a:hover {
-    color: rgb(0, 6, 22);
+    color: rgb(2, 96, 178);
 }
 
 .nav-fostrap li:hover {
@@ -41,8 +38,8 @@ a:active, a:hover {
 }
 
 .nav-fostrap li ul.dropdown {
-    background-color: rgb(1, 26, 98);
-    border-color: rgb(1, 26, 98);
+    background-color: rgb(16, 98, 254);
+    border-color: rgb(16, 98, 254);
 }
 
     .nav-fostrap li ul.dropdown li a {
@@ -50,7 +47,7 @@ a:active, a:hover {
     }
 
     .nav-fostrap li ul.dropdown li:hover {
-        background-color: rgb(1, 26, 98);
+        background-color: rgb(16, 98, 254);
     }
 
         .nav-fostrap li ul.dropdown li:hover a {
@@ -58,35 +55,35 @@ a:active, a:hover {
         }
 
 #sidebar > .links a:hover {
-    background-color: rgba(1,26,98,0.08);
-    border: 1px solid rgb(1, 26, 98);
+    background-color: rgba(16,98,254,0.08);
+    border: 1px solid rgb(16, 98, 254);
 }
 
 .info-button:hover,
 .info-button {
-    background-color: rgb(209, 236, 241);
-    color: rgb(12, 84, 96);
+    background-color: rgb(209, 237, 246);
+    color: rgb(47, 100, 115);
     background-image: unset;
 }
 
 .red-button:hover,
 .red-button {
-    background-color: rgb(248, 215, 218);
-    color: rgb(114, 28, 36);
+    background-color: rgb(244, 207, 206);
+    color: rgb(113, 43, 41);
     background-image: unset;
 }
 
 .orange-button:hover,
 .orange-button {
-    background-color: rgb(255, 243, 205);
-    color: rgb(133, 100, 4);
+    background-color: rgb(251, 232, 205);
+    color: rgb(125, 90, 41);
     background-image: unset;
 }
 
 .green-button:hover,
 .green-button {
-    background-color: rgb(212, 237, 218);
-    color: rgb(21, 87, 36);
+    background-color: rgb(209, 235, 209);
+    color: rgb(48, 96, 48);
     background-image: unset;
 }
 
@@ -127,10 +124,6 @@ a:active, a:hover {
     color: green;
 }
 
-.k-i-notification:before {
-    color: orange;
-}
-
 .field-validation-error {
     color: red;
 }
@@ -140,11 +133,11 @@ a:active, a:hover {
 }
 
 #sidebar fieldset legend {
-    border-bottom: 1px solid rgb(1, 26, 98);
+    border-bottom: 1px solid rgb(16, 98, 254);
 }
 
 #footer #info {
-    border-top: 1px solid rgb(1, 26, 98);
+    border-top: 1px solid rgb(16, 98, 254);
 }
 
 .navbar-fostrap > img,
@@ -155,7 +148,7 @@ a:active, a:hover {
 @media only screen and (max-width:900px) {
     .nav-fostrap,
     .nav-bg-fostrap {
-        background-color: rgb(1, 26, 98);
+        background-color: rgb(2, 16, 56);
     }
 
         .nav-bg-fostrap .title-mobile {
@@ -164,140 +157,6 @@ a:active, a:hover {
 
     #sidebar ul,
     #sidebar {
-        background-color: rgb(1, 26, 98);
-    }
-}
-
-@media only screen and (min-width:901px) {
-    .nav-fostrap::before {
-        content: "";
-        float: left;
-        margin-top: -16px;
-        border-bottom: 1px solid rgb(1, 26, 98);
-        width: 220px;
-        margin-left: 10px;
-    }
-}
-
-/*session info in the top right corner*/
-#header .search-container {
-    border-radius: 4px;
-}
-
-#breadcrumb {
-    border-radius: 4px;
-}
-
-#main .header-text {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-@media only screen and (min-width:901px) {
-    #sidebar fieldset:first-of-type legend {
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-    }
-}
-
-.nav-fostrap .search-container > span {
-    border-radius: 4px;
-}
-
-li > ul.dropdown {
-    border-radius: 4px;
-}
-
-.nav-fostrap li ul.dropdown li:hover {
-    border-radius: 4px;
-}
-
-.k-filemanager-toolbar {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
-.k-filemanager {
-    border-radius: 4px;
-}
-
-.sidebar-switch {
-    color: rgb(1, 26, 98);
-}
-
-.Service_FastDownload #aspxcontent,
-.Service_Script #aspxcontent,
-.Service_ScriptParameters #aspxcontent,
-.Service_PunkBuster #aspxcontent,
-.Service_Steam #aspxcontent,
-.Service_Console #aspxcontent {
-    border-radius: 4px;
-}
-
-/* when configured to apply primary color to sidebar/toolbar */
-
-@media only screen and (min-width:901px) {
-    .primary-color-sesion-toolbar .search-container.k-toolbar {
-        background-color: rgb(1, 26, 98);
-    }
-
-    .primary-color-sidebar #main .header-text {
-        background-color: unset;
-        color: rgb(255, 255, 255);
-    }
-
-    .primary-color-sidebar #sidebar fieldset:first-of-type legend {
-        background-color: unset;
-        color: rgb(255, 255, 255);
-        border-color: rgb(1, 26, 98);
-    }
-
-    .primary-color-sidebar .nav-fostrap {
-        background-color: rgb(1, 26, 98);
-    }
-
-        .primary-color-sidebar .nav-fostrap li > a {
-            color: rgb(255, 255, 255);
-        }
-
-        .primary-color-sidebar .nav-fostrap li:hover > a {
-            color: rgb(255, 255, 255);
-        }
-
-        .primary-color-sidebar .nav-fostrap li ul.dropdown li:hover {
-            color: rgb(255, 255, 255);
-            background-color: rgb(1, 26, 98);
-        }
-
-        .primary-color-sidebar .nav-fostrap li ul.dropdown {
-            background-color: rgb(1, 26, 98);
-        }
-
-            .primary-color-sidebar .nav-fostrap li ul.dropdown li:hover a {
-                color: rgb(255, 255, 255);
-            }
-
-    .primary-color-sidebar .navbar-fostrap > img,
-    .primary-color-sidebar .logo {
-        filter: ;
-    }
-
-    .primary-color-sidebar .sidebar-switch {
-        color: rgb(255, 255, 255);
-    }
-
-
-    .primary-color-sidebar .nav-fostrap::before {
-        border-bottom: 1px solid rgb(255, 255, 255);
-    }
-
-    .primary-color-sidebar #main .header-text {
-        border-radius: 0;
-        border-bottom: 1px solid rgb(1, 26, 98);
-    }
-
-    .primary-color-sidebar #sidebar fieldset:first-of-type legend {
-        border-radius: 0;
-        border-bottom: 1px solid rgb(1, 26, 98);
+        background-color: rgb(2, 16, 56);
     }
 }

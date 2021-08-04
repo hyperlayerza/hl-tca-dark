@@ -18,10 +18,18 @@
                 </script>
             }
         </dd>
-        @if ((bool)this.ViewData["Permission.Ftp"])
+       @if ((bool)this.ViewData["Permission.Ftp"])
         {
-            <dt><label>@Resources.Game.ServiceHome.FtpInfo</label></dt>
-            <dd><a href="ftp://@Model.FtpInfo" target="_blank">@Html.DisplayFor(m => m.FtpInfo)</a></dd>
+            if (string.IsNullOrEmpty(Model.SftpInfo))
+            {
+                <dt><label>@Resources.Game.ServiceHome.FtpInfo</label></dt>
+                <dd><a href="ftp://@Model.FtpInfo" target="_blank">@Html.DisplayFor(m => m.FtpInfo)</a></dd>
+            }
+            else
+            {
+                <dt><label>@Resources.Game.ServiceHome.SftpInfo</label></dt>
+                <dd><a href="sftp://@Model.SftpInfo" target="_blank">@Html.DisplayFor(m => m.SftpInfo)</a></dd>
+            }
         }
         @if (Model.QueryPort != Model.GamePort & Model.QueryPort > 0)
         {
@@ -41,7 +49,7 @@
         @if (true)
         {
             <dt><label>@Resources.Game.ServiceHome.Server</label></dt>
-            <dd><a href="@Url.Content(string.Format("~/Interface/Base/EditServer?serverid={0}", Model.ServerId))" target="_blank">@Html.DisplayFor(m => m.ServerName)</a></dd>
+            <dd><a href="@Url.Content(string.Format("~/#", Model.ServerId))">@Html.DisplayFor(m => m.ServerName)</a></dd>
         }
         @if (Model.FastDownloadEnabled)
         {
