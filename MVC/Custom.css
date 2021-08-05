@@ -42,7 +42,7 @@ a:link, a:visited {
 
 .k-progressbar {
     color: rgba(227, 239, 252, 0.8);
-    background-color: rgba(2, 16, 56, 0.8) !important;
+    background-color: rgba(1, 26, 98, 0.8) !important;
 }
 
 .k-switch-off .k-switch-container {
@@ -348,4 +348,24 @@ body::-webkit-scrollbar {
 
 .k-breadcrumb, .k-filemanager {
     border-color: #1062FE;
+}
+
+.k-dialog {
+    width: 35%;
+}
+
+.k-tabstrip-items {
+    border-color: #1062fe;
+}
+
+.k-tabstrip > .k-content {
+    border-color: #1062fe;
+}
+
+.k-listview {
+    border-color: #1062fe;
+}
+
+.k-tabstrip-items .k-item.k-state-active, .k-tabstrip-items .k-item.k-state-selected {
+    border-color: #1062fe;
 }
