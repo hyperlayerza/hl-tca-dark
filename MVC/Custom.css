@@ -369,3 +369,10 @@ body::-webkit-scrollbar {
 .k-tabstrip-items .k-item.k-state-active, .k-tabstrip-items .k-item.k-state-selected {
     border-color: #1062fe;
 }
+
+@media only screen and (min-width: 901px) {
+.primary-color-sidebar .nav-fostrap::before {
+    margin-top: 86px;
+    border-bottom: 1px solid #1062fe;
+}
+}
