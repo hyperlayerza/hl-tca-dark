@@ -396,3 +396,7 @@ body::-webkit-scrollbar {
     margin: 0.5em !important;
 }
 
+.k-menu-group .k-item:hover, .k-menu-group .k-item.k-state-hover, .k-menu.k-context-menu .k-item:hover, .k-menu.k-context-menu .k-item.k-state-hover {
+    color: white;
+    background-color: #1062fe;
+}
