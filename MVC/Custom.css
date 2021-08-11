@@ -248,19 +248,23 @@ textarea:hover, textarea:focus {
     background-color: #021038;
 }
 
+/*scrollbars*/
+
 body::-webkit-scrollbar {
     width: 0.5em;
   }
    
   body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px #011A62;
-    border-radius: 5%;
+    border-radius: 100px;
   }
    
   body::-webkit-scrollbar-thumb {
     background-color:  #1062FE;
-    outline: 1px solid  #1062FE;
+    border-radius: 100px;
   }
+
+/*scrollbars*/
 
 /* inner scrollbars for Alex mods page */
 
@@ -270,11 +274,12 @@ body::-webkit-scrollbar {
    
   .k-listview-content::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px #011A62;
+    border-radius: 100px;
   }
    
   .k-listview-content::-webkit-scrollbar-thumb {
     background-color:  #1062FE;
-    outline: 1px solid  #1062FE;
+    border-radius: 100px;
   }
 
   .k-card-body::-webkit-scrollbar {
@@ -283,11 +288,12 @@ body::-webkit-scrollbar {
    
   .k-card-body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px #011A62;
+    border-radius: 100px;
   }
    
   .k-card-body::-webkit-scrollbar-thumb {
     background-color:  #1062FE;
-    outline: 1px solid  #1062FE;
+    border-radius: 100px;
   }
 
   
@@ -297,11 +303,12 @@ body::-webkit-scrollbar {
    
   .k-list-scroller::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px #011A62;
+    border-radius: 100px;
   }
    
   .k-list-scroller::-webkit-scrollbar-thumb {
     background-color:  #1062FE;
-    outline: 1px solid  #1062FE;
+    border-radius: 100px;
   }
   
 /* inner scrollbars for Alex mods page */
@@ -354,6 +361,10 @@ body::-webkit-scrollbar {
     width: 35%;
 }
 
+.k-tabstrip > .k-content {
+    margin-right: 0;
+}
+
 .k-tabstrip-items {
     border-color: #1062fe;
 }
@@ -376,3 +387,12 @@ body::-webkit-scrollbar {
     border-bottom: 1px solid #1062fe;
 }
 }
+
+.k-window-titlebar {
+    border-color: #1062fe;
+}
+
+.custommod-k-card {
+    margin: 0.5em !important;
+}
+
