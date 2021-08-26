@@ -175,6 +175,7 @@ ul {
     background-color: transparent;
     margin-top: 20px;
     border-top: 0;
+    margin-bottom: 20px;
 }
 
 a:hover {
@@ -280,4 +281,54 @@ a:hover {
 
 .k-i-unlock:before, .k-i-lock:before {
     color: #fff;
+}
+
+#creden-alert-text-light {
+    color: rgba(227, 239, 252, 0.8);
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+#creden-alert  {
+	background: linear-gradient(#091f6e,#031557 99%);
+
+}
+@keyframes border-pulse {
+    0% {
+        border-color: rgba(255, 0, 0, 0.8);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    }
+    70% {
+        border-color: rgba(255, 0, 0, 0.8);
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    }
+    100% {
+        border-color: rgba(255, 0, 0,0.8);
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+@-webkit-keyframes border-pulse {
+    0% {
+        border-color: rgba(255, 0, 0, 0.8);
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5);
+    }
+    70% {
+        border-color: rgba(255, 0, 0, 0.8);
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        border-color: rgba(255, 0, 0,0.8);
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+#creden-alert  {
+    border: 3px solid red;
+    animation: border-pulse 2s infinite;
 }
