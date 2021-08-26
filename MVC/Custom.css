@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(2, 16, 56);
+}
+
 .nav-fostrap {
     background-color: #021038;
 
@@ -252,6 +256,7 @@ textarea:hover, textarea:focus {
 
 body::-webkit-scrollbar {
     width: 0.5em;
+    scroll-behavior: smooth;
   }
    
   body::-webkit-scrollbar-track {
@@ -287,7 +292,8 @@ body::-webkit-scrollbar {
   }
    
   .k-card-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #011A62;
+    box-shadow: inset 0 0 6px #021038;
+    background-color: #021038;
     border-radius: 100px;
   }
    
@@ -312,6 +318,21 @@ body::-webkit-scrollbar {
   }
   
 /* inner scrollbars for Alex mods page */
+/* scrollbars for mysql manager */
+.k-auto-scrollable::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  .k-auto-scrollable::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #011A62;
+    border-radius: 100px;
+  }
+   
+  .k-auto-scrollable::-webkit-scrollbar-thumb {
+    background-color:  #1062FE;
+    border-radius: 100px;
+  }
+ /* scrollbars for mysql manager */
 
   .k-textbox {
     border-color: #1062FE;
@@ -394,5 +415,39 @@ body::-webkit-scrollbar {
 
 .custommod-k-card {
     margin: 0.5em !important;
+}
+
+.k-menu-group .k-item:hover, .k-menu-group .k-item.k-state-hover, .k-menu.k-context-menu .k-item:hover, .k-menu.k-context-menu .k-item.k-state-hover {
+    color: white;
+    background-color: #1062fe;
+}
+
+/* fixes for the sub header */
+
+.primary-color-sidebar #sidebar fieldset:first-of-type legend {
+    border-left: 0;
+    border-top: 0;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 901px) {
+#main .header-text {
+    margin: 0 auto
+
+    }
+}
+
+/* fixes for the sub header */
+
+#footer #info {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    margin: 0 0 0 0;
+    border-top: 1px solid #1062fe;
+}
+.k-listview {
+    border: 0;
+    background-color: transparent;
 }
 
