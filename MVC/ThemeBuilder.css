@@ -2,8 +2,7 @@
 /* If your theme uses a different css make a copy of this file and place it in your theme's folder                     */
 HTML,
 BODY {
-    background-color: 0;
-    color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #main .header-text {
@@ -148,7 +147,7 @@ a:active, a:hover {
 @media only screen and (max-width:900px) {
     .nav-fostrap,
     .nav-bg-fostrap {
-        background-color: 0;
+        background-color: rgba(0, 0, 0, 0);
     }
 
         .nav-bg-fostrap .title-mobile {
@@ -157,6 +156,8 @@ a:active, a:hover {
 
     #sidebar ul,
     #sidebar {
-        background-color: 0;
+      
+        background-color: rgba(0, 0, 0, 0);
+
     }
 }
