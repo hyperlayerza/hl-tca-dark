@@ -149,6 +149,7 @@ a:active, a:hover {
     .nav-fostrap,
     .nav-bg-fostrap {
         background-color: rgba(0,0,0,0);
+
     }
 
         .nav-bg-fostrap .title-mobile {
@@ -158,5 +159,6 @@ a:active, a:hover {
     #sidebar ul,
     #sidebar {
         background-color: rgba(0,0,0,0);
+
     }
 }
