@@ -3,7 +3,7 @@ body {
 }
 
 .nav-fostrap {
-    background-color: #021038;
+    background-color: #011A62;
 
     
 }
@@ -18,8 +18,61 @@ body {
     transition: 0.3s;
 }
 
+.nav-fostrap li:hover {
+    border: none;
+}
+
+@media only screen and (min-width: 901px) {
+.nav-fostrap li a {
+    display: block;
+    padding: 15px 40px 10px 40px;
+    background-color: #02103882;
+    color: #fff;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+.main-sidebar-collapsed .nav-fostrap > ul > li > a {
+    margin-left: 0;
+    }
+}
+
+.nav-fostrap li ul.dropdown {
+    background-color: #011A62;
+    border-color: #011A62;
+    color:rgba(227, 239, 252, 0.8) !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 901px) {
+.nav-fostrap li ul.dropdown li a {
+    padding: 10px 10px 10px 41px;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+li > ul.dropdown {
+    width: 100% !important;
+    margin-left: 0;
+    }
+}
+
+.nav-fostrap li ul.dropdown li:hover {
+    background-color: #1062FE;
+    transition: 0.3s;
+}
+
+.nav-fostrap li ul.dropdown li a {
+    background-color: transparent;
+}
+
+
 #header {
-    background-color: #021038;
+    background-color: #011A62;
 }
 
 a:link, a:visited {
@@ -27,13 +80,13 @@ a:link, a:visited {
 }
 
 #sidebar fieldset:first-of-type legend {
-    background-color: #021038;
+    background-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
     border-color: #1062FE;
 }
 
 #main .header-text {
-    background-color: #021038;
+    background-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
     border-color: #1062FE;
 }
@@ -379,7 +432,7 @@ body::-webkit-scrollbar {
 }
 
 .k-dialog {
-    width: 35%;
+    width: 26% !important;
 }
 
 .k-tabstrip > .k-content {
@@ -451,3 +504,27 @@ body::-webkit-scrollbar {
     background-color: transparent;
 }
 
+.custommod-k-card, .custommod-k-card-image {
+    animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  

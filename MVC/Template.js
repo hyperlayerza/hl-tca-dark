@@ -274,6 +274,9 @@
                 clearInterval(interval);
             } else {
                 $("body").css("min-height", $(".nav-fostrap > ul").outerHeight(true));
+                $("#pseudo-background").remove();
+                let pseudostyle = $(`<style id="pseudo-background">body::after { height: ${$("body").height()}px }</style>`);
+                pseudostyle.appendTo("head");
             }
         }, 20)
     }

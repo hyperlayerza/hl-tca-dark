@@ -125,11 +125,13 @@
 
     .nav-fostrap li {
         display: block;
+        border: none;
     }
 
         .nav-fostrap li a {
             display: block;
             padding: 15px;
+            background-color: #011A62;
         }
 
         .nav-fostrap li:first-child:hover a {
@@ -178,7 +180,7 @@
 
     .nav-fostrap > ul {
         padding-top: 35px;
-        margin: 96px 0 0 0;
+        margin: 110px 0 0 0;
     }
 
     #breadcrumb {

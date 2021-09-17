@@ -26,11 +26,11 @@
     {
         if (isdark)
         {
-            contentcolor = string.Format("rgba(2, 16, 56, 0.8)", transparency);
+            contentcolor = string.Format("rgba(0,0,0,{0})", transparency);
         }
         else
         {
-            contentcolor = string.Format("rgba(2, 16, 56, 0.8)", transparency);
+            contentcolor = string.Format("rgba(255,255,255,{0})", transparency);
         }
 
         if (coloredsidebar)
@@ -84,29 +84,43 @@
                         background-size: cover;
                         background-attachment: fixed;
                     }
+
+                        body::after {
+                            content: "";
+                            opacity: 1;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                            position: fixed;
+                            z-index: -1;
+                            background-color: inherit;
+                            -moz-animation: fadein 1s linear forwards;
+                            animation: fadein 1s linear forwards;
+                        }
+
+                        .BodyUnload::after {
+                            -moz-animation: fadeout 0.5s linear forwards;
+                            animation: fadeout 0.5s linear forwards;
+                        }
+
+                        @@keyframes fadein {
+                            from { opacity: 1; }
+                            to { opacity: @transparency; }
+                        }
+
+                        @@keyframes fadeout {
+                            from { opacity: @transparency;; }
+                            to { opacity: 1; }
+                        }
                 </text>
                 break;
         }
-
-        @*if (isdark)
-        {
-        <text>
-            body {
-                background-image: linear-gradient(to top, rgba(0,0,0,0) -500%, rgba(0,0,0,1)), url(@this.GetTemplateFileUrl(Model.BackgroundImage));
-                background-size: cover;
-                background-attachment: fixed;
-            }
-        </text>
-        }
-        else
-        {
-        <text>
-            body {
-                background-image: linear-gradient(to top, rgba(255,255,255,0) -400%, rgba(255,255,255,1)), url(@this.GetTemplateFileUrl(Model.BackgroundImage));
-                background-size: cover;
-                background-attachment: fixed;
-            }
-        </text>
-        }*@
     }
     </style>
+
+    <script>
+        window.onbeforeunload = function () {
+            $("body").addClass("BodyUnload");
+        };
+    </script>
