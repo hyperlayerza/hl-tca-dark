@@ -1,79 +1,79 @@
 .Panel {
-    background-color: #0f1114;
+    background-color: rgba(2, 16, 56, 0.8);
     
 }
 
 .RadPageView {
-    background-color: #0f1114;
+    background-color: rgba(1,80,231,0.1);
 }
 
 option, select, textarea, input[type=password], input[type=text] {
-    background-color: #1b2024 !important;
-    border: solid 1px #1b2024 !important;
+    background-color: rgb(2, 16, 56) !important;
+    border: solid 1px rgb(2, 16, 56) !important;
 }
 
 option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
-    background-color: #1b2024 !important;
+    background-color: rgb(1, 26, 98) !important;
 }
 
 .dropdown-wrapper select, .RadInput_Default input, .textbox-wrapper textarea, .textbox-wrapper input, .textbox-wrapper textarea:hover, .dropdown-wrapper select:hover {
-    background-color: #1b2024 !important;
-    border: solid 1px #1b2024 !important;
+    background-color: rgb(1, 26, 98) !important;
+    border: solid 1px rgb(1, 26, 98) !important;
 }
 
-/* .RadGrid_TCAdmin .rgNumPart a {
+.RadGrid_TCAdmin .rgNumPart a {
     border: 1px solid rgb(1, 26, 98);
     line-height: 20px;
     color: #fff;
-} */
+}
 
-/* .RadGrid_TCAdmin .rgNumPart a.rgCurrentPage, .RadGrid_TCAdmin .rgNumPart a.rgCurrentPage:hover {
+.RadGrid_TCAdmin .rgNumPart a.rgCurrentPage, .RadGrid_TCAdmin .rgNumPart a.rgCurrentPage:hover {
     border-color: rgb(2, 16, 56);
     background: rgb(2, 16, 56);
     color: #fff;
-} */
+}
 
-/* .RadGrid_TCAdmin .rgNumPart a:hover {
+.RadGrid_TCAdmin .rgNumPart a:hover {
     border-color: rgb(2, 16, 56);
     background: rgb(2, 16, 56);
     color: #fff;
     transition: 0.3s;
-} */
+}
 
 .WorkshopActionContainer div:first-child .NotInstalled {
-    background-color: #0f1114;
+    background-color: rgb(2, 16, 56);
     border-bottom-left-radius: 10px;
 }
 
 .WorkshopActionContainer div:nth-child(2n) {
-    background-color: #0f1114;
+    background-color: rgb(2, 16, 56);
     border-bottom-right-radius: 10px;
 }
 
 .WorkshopActionContainer div:first-child .NotInstalled:hover {
-    background-color: #1062fe;
+    background-color: #015ABE;
     border-bottom-left-radius: 10px;
     color: #fff;
     transition: 0.3s;
 }
 
 .WorkshopActionContainer div:nth-child(2n):hover {
-    background-color: #1062fe;
+    background-color: #015ABE;
     border-bottom-right-radius: 10px;
     color: #fff;
     transition: 0.3s;
 }
 
 .WorkshopActionContainer div:first-child .Installed {
-    background-color: #0f1114;
+    background-color: rgb(2, 16, 56);
     border-bottom-left-radius: 10px;
     color: #fff;
 }
 
 .WorkshopActionContainer div:first-child .Installed:hover {
-    background-color: #1062fe;
+    background-color: #015ABE;
     border-bottom-left-radius: 10px;
-    border-color: #1062fe;
+    border-color: #015ABE;
     color: #fff;
     transition: 0.3s;
 }
@@ -85,35 +85,34 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 }
 
 .Meter .Bar {
-    background-color: #1062fe;
-    border-color: #1062fe;
+    background-color: #015ABE;
+    border-color: #015ABE;
 }
 
 .Meter {
-    background: #0f1114;
-    border-color: #0f1114;
+    background: rgb(2, 16, 56);
+    border-color: rgb(2, 16, 56);
 }
 
 .RadDock_TCAdmin fieldset .rdMiddle .rdCenter, .RadDock_TCAdmin .rdBottom .rdCenter {
-    background-color: #1b2024;
-    border: 0.09em solid #1b2024;
+    background-color: rgb(1, 26, 98);
+    border: 0.09em solid rgb(1, 26, 98);
 }
 
 .RadDock_TCAdmin .rdContent {
     color: rgb(248, 249, 250);
-    background-color: #1b2024;
+    background-color: rgb(1, 26, 98);
 }
 
-/* .RadToolBarDropDown .rtbWrap {
+.RadToolBarDropDown .rtbWrap {
     background-color: rgb(1, 26, 98);
     border-color: rgb(1, 26, 98);
-} */
+}
 
-.ToolBarPopupPanel {
-    left: 0;
-    top: 32px;
-    border: 1px solid #0f1114;
-    background-color: #0f1114;
+.RadToolBar .rtbWrap:hover {
+    outline: 0;
+    background-color: #015ABE !important;
+    transition: 0.3s;
 }
 
 .HyperLink, .HyperLinkCommand {
@@ -149,13 +148,5 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 
 .RadGrid_TCAdmin .rgEditForm {
     border-bottom: 1px solid #1062fe;
+    background-color: rgba(1,80,231,0.1);
 }
-
-@font-face {
-    font-family: 'Poppins';
-    src: url("https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2");
-}
-
-table, textarea, tr, td, p, a, span, div, select, input, button {
-    font-family: 'Poppins', sans-serif;
-    }

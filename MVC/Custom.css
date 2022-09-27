@@ -1,10 +1,21 @@
 body {
-    background-color: rgb(27, 32, 36)
+    background-color: rgb(2, 16, 56);
 }
 
 .nav-fostrap {
-    background-color: #0f1114;
+    background-color: #011A62;
+
     
+}
+
+.nav-fostrap li ul.dropdown {
+    background-color: #011A62;
+    border-color: #011A62;
+}
+
+.nav-fostrap li ul.dropdown li:hover {
+    background-color: #1062FE;
+    transition: 0.3s;
 }
 
 .nav-fostrap li:hover {
@@ -15,7 +26,8 @@ body {
 .nav-fostrap li a {
     display: block;
     padding: 15px 40px 10px 40px;
-    background-color: #14161ad8;
+    background-color: #02103882;
+    color: #fff;
     }
 }
 
@@ -25,16 +37,10 @@ body {
     }
 }
 
-
-@media only screen and (min-width: 901px) {
-#header .logo {
-    margin: 15px 5px 5px 10px;
-
-    }
-}
 .nav-fostrap li ul.dropdown {
-    background-color: #0f1114;
-    border-color: #0f1114;
+    background-color: #011A62;
+    border-color: #011A62;
+    color:rgba(227, 239, 252, 0.8) !important;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
@@ -56,7 +62,7 @@ li > ul.dropdown {
 }
 
 .nav-fostrap li ul.dropdown li:hover {
-    background-color: #1062fe;
+    background-color: #1062FE;
     transition: 0.3s;
 }
 
@@ -64,9 +70,9 @@ li > ul.dropdown {
     background-color: transparent;
 }
 
+
 #header {
-    background-color: #0f1114;
-    margin-bottom: -0.1rem;
+    background-color: #011A62;
 }
 
 a:link, a:visited {
@@ -74,15 +80,15 @@ a:link, a:visited {
 }
 
 #sidebar fieldset:first-of-type legend {
-    background-color: #0f1114;
+    background-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
-    border-color: #1062fe;
+    border-color: #1062FE;
 }
 
 #main .header-text {
-    background-color: #0f1114;
+    background-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
-    border-color: #1062fe;
+    border-color: #1062FE;
 }
 
 .k-progressbar-horizontal {
@@ -93,42 +99,42 @@ a:link, a:visited {
 
 .k-progressbar {
     color: rgba(227, 239, 252, 0.8);
-    background-color: rgba(15, 17, 20, 0.8) !important;
+    background-color: rgba(1, 26, 98, 0.8) !important;
 }
 
 .k-switch-off .k-switch-container {
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
-    border-color: #0f1114;
+    background-color: #011A62;
+    border-color: #011A62;
 }
 
 .k-switch-off .k-switch-container:hover {
     color: #fff;
-    background-color: #0f1114;
-    border-color: #0f1114;
+    background-color: #011A62;
+    border-color: #011A62;
 }
 
 .k-switch-off .k-switch-handle {
-    background-color: #1062fe;
-    border-color: #1062fe;
+    background-color: #1062FE;
+    border-color: #1062FE;
 }
 
 
 .k-badge-info {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-badge-solid.k-badge-secondary {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: #ffffff;
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 #sidebar > .links a:hover {
-    background-color: #1062fe;
-    border: 1px solid #1062fe;
+    background-color: #1062FE;
+    border: 1px solid #1062FE;
     color: #fff;
     transition: 0.3s;
 }
@@ -140,36 +146,36 @@ a:link, a:visited {
 
 .k-breadcrumb .k-breadcrumb-link:hover, .k-breadcrumb .k-breadcrumb-link.k-state-hover {
     color: #fff;
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-breadcrumb .k-breadcrumb-root-link:hover, .k-breadcrumb .k-breadcrumb-root-link.k-state-hover {
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .green-button, .orange-button, .red-button {
-    background-color: #1062fe;
+    background-color: #1062FE;
     color: rgba(227, 239, 252, 0.8);
-    border-color: #1062fe;
+    border-color: #1062FE;
     background-image: unset;
 }
 
 .green-button:hover, .orange-button:hover, .red-button:hover{
-    background-color: #0058ff;
+    background-color: #0150e7;
     color: #fff;
-    border-color: #0058ff;
+    border-color: #0150e7;
     background-image: unset;
 }
 
 .k-button {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-button:hover, .k-button.k-state-hover, .k-button-secondary:hover, .k-button-secondary.k-state-hover {
-    border-color: #0058ff;
-    background-color: #0058ff;
+    border-color: #014cda;
+    background-color: #0150e7;
     color: #fff;
 }
 
@@ -180,13 +186,13 @@ a:link, a:visited {
 }
 
 .k-toolbar {
-    border-color: #0f1114;
+    border-color: #021038;
 }
 
 .k-card, .k-card-header {
-    border-color: #0f1114;
+    border-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
+    background-color: #011A62;
 }
 
 .k-flat {
@@ -194,14 +200,14 @@ a:link, a:visited {
 }
 
 .k-flat:hover{
-    border-color: #1062fe !important;
+    border-color: #1062FE !important;
     color: #fff !important;
-    background-color: #1062fe !important;
+    background-color: #1062FE !important;
     transition: 0.3s !important;
 }
 
 .k-tabstrip-items .k-item:hover, .k-tabstrip-items .k-item.k-state-hover {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: #fff;
     transition: 0.3s;
 }
@@ -210,49 +216,25 @@ a:link, a:visited {
     margin-bottom: 15px;
 }
 
-textarea, textarea:hover, textarea:focus {
-    background-color: #0f1114 !important;
-    border: 1px solid #0f1114 !important;
+textarea:hover, textarea:focus {
+    background-color: rgba(58, 84, 156, 0.7) !important;
+    border: 1px solid #1062FE !important;
     transition: 0.3s;
 }
 
 .k-textbox:focus, .k-textbox.k-state-focus, .k-textbox.k-state-focused, .k-textarea:focus, .k-textarea.k-state-focus, .k-textarea.k-state-focused, .k-numerictextbox:focus {
-    border-color: #0f1114;
+    border-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
+    background-color: #011A62;
+    box-shadow: none !important;
+    transition: 0.3s;
 }
-
-/* moves my profile text boxes abit to the right */
-
-@media only screen and (min-width: 901px) {
-#main .detail {
-    margin-right: 6px !important;
-    margin-left: 15px;
-    }
-}
-
-#main .fieldset-form dl dt {
-    line-height: 1.2em;
-    margin: 5px 0px 0px 5px;
-}
-
-/* moves my profile text boxes abit to the right */
 
 .k-textbox:hover, .k-textbox.k-state-hover, .k-textarea:hover, .k-textarea.k-state-hover {
-    border-color: #0f1114;
+    border-color: #1062FE;
     color: #fff;
-    background-color: #0f1114;
-}
-
-.k-dropdown .k-dropdown-wrap, .k-dropdowntree .k-dropdown-wrap {
-    border-color: #1062fe;
-    color: #ffffff;
-    background-color: #0f1114;
-}
-
-.k-dropdown .k-dropdown-wrap:hover, .k-dropdowntree .k-dropdown-wrap:hover, .k-dropdown .k-dropdown-wrap.k-state-hover, .k-dropdowntree .k-dropdown-wrap.k-state-hover {
-    border-color: #1062fe;
-    background-color: #0f1114;
+    background-color: #021038;
+    transition: 0.3s;
 }
 
 .k-i-save:before {
@@ -276,9 +258,9 @@ textarea, textarea:hover, textarea:focus {
 }
 
 .k-window {
-    border-color: #0f1114;
+    border-color: #011A62;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
+    background-color: #021038;
 }
 
 .k-upload .k-dropzone .k-upload-status, .k-upload .k-dropzone .k-dropzone-hint{
@@ -290,7 +272,7 @@ textarea, textarea:hover, textarea:focus {
 }
 
 .k-upload .k-file-progress .k-progress {
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 #dbAllowinner, #dbLocationsinner, #dbConfig, #dbManage {
@@ -308,37 +290,39 @@ textarea, textarea:hover, textarea:focus {
 
 .k-list-container .k-button:hover, .k-list-container .k-button.k-state-hover {
     color: white;
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-grid-pager {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: #ffffff;
-    background-color: #1b2024;
+    background-color: #011a62;
 }
 
 .k-pager-nav.k-link, .k-pager-refresh {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: #ffffff;
-    background-color: #0f1114;
+    background-color: #021038;
 }
 
+/*scrollbars*/
 
-/* scroll bar */
 body::-webkit-scrollbar {
     width: 0.5em;
+    scroll-behavior: smooth;
   }
    
   body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #0f1114;
+    box-shadow: inset 0 0 6px #011A62;
     border-radius: 100px;
-    background-color: #0f1114;
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color:  #1062fe;
+    background-color:  #1062FE;
     border-radius: 100px;
   }
+
+/*scrollbars*/
 
 /* inner scrollbars for Alex mods page */
 
@@ -347,13 +331,12 @@ body::-webkit-scrollbar {
   }
    
   .k-listview-content::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #0f1114;
+    box-shadow: inset 0 0 6px #011A62;
     border-radius: 100px;
-    background-color: #0f1114;
   }
    
   .k-listview-content::-webkit-scrollbar-thumb {
-    background-color:  #1062fe;
+    background-color:  #1062FE;
     border-radius: 100px;
   }
 
@@ -362,13 +345,13 @@ body::-webkit-scrollbar {
   }
    
   .k-card-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #0f1114;
+    box-shadow: inset 0 0 6px #021038;
+    background-color: #021038;
     border-radius: 100px;
-    background-color: #1b2024;
   }
    
   .k-card-body::-webkit-scrollbar-thumb {
-    background-color:  #1062fe;
+    background-color:  #1062FE;
     border-radius: 100px;
   }
 
@@ -378,13 +361,12 @@ body::-webkit-scrollbar {
   }
    
   .k-list-scroller::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #0f1114;
+    box-shadow: inset 0 0 6px #011A62;
     border-radius: 100px;
-    background-color: #0f1114;
   }
    
   .k-list-scroller::-webkit-scrollbar-thumb {
-    background-color:  #1062fe;
+    background-color:  #1062FE;
     border-radius: 100px;
   }
   
@@ -395,22 +377,20 @@ body::-webkit-scrollbar {
   }
    
   .k-auto-scrollable::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #0f1114;
+    box-shadow: inset 0 0 6px #011A62;
     border-radius: 100px;
-    background-color: #0f1114;
   }
    
   .k-auto-scrollable::-webkit-scrollbar-thumb {
-    background-color:  #1062fe;
+    background-color:  #1062FE;
     border-radius: 100px;
   }
  /* scrollbars for mysql manager */
 
-
   .k-textbox {
-    border-color: #0f1114;
+    border-color: #1062FE;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
+    background-color: #021038;
 }
 
 #curse_search::placeholder {
@@ -418,9 +398,9 @@ body::-webkit-scrollbar {
 }
 
 .k-combobox .k-dropdown-wrap {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: rgba(227, 239, 252, 0.8);
-    background-color: #0f1114;
+    background-color: #021038;
 }
 
 .k-input::placeholder {
@@ -429,7 +409,7 @@ body::-webkit-scrollbar {
 
 .k-list .k-item:hover, .k-list .k-item.k-state-hover, .k-list-optionlabel:hover, .k-list-optionlabel.k-state-hover {
     color: #fff;
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-card-subtitle {
@@ -437,9 +417,9 @@ body::-webkit-scrollbar {
 }
 
 .k-treeview .k-in:hover, .k-treeview .k-in.k-state-hover {
-    border-color: #1062fe;
+    border-color: #1062FE;
     color: #fff;
-    background-color: #1062fe;
+    background-color: #1062FE;
 }
 
 .k-treeview .k-in, .k-treeview .k-in.k-state{
@@ -448,24 +428,27 @@ body::-webkit-scrollbar {
 }
 
 .k-breadcrumb, .k-filemanager {
-    border-color: #1062fe;
+    border-color: #1062FE;
 }
 
 .k-dialog {
-    width: 30% !important;
-}
-
-.k-tabstrip-items {
-    border-color: none;
+    width: 26% !important;
 }
 
 .k-tabstrip > .k-content {
-    border: 1px solid #1062fe !important;
+    margin-right: 0;
+}
+
+.k-tabstrip-items {
+    border-color: #1062fe;
+}
+
+.k-tabstrip > .k-content {
+    border-color: #1062fe;
 }
 
 .k-listview {
-    border: 0;
-    background-color: transparent;
+    border-color: #1062fe;
 }
 
 .k-tabstrip-items .k-item.k-state-active, .k-tabstrip-items .k-item.k-state-selected {
@@ -476,7 +459,7 @@ body::-webkit-scrollbar {
 .primary-color-sidebar .nav-fostrap::before {
     margin-top: 86px;
     border-bottom: 1px solid #1062fe;
-    }
+}
 }
 
 .k-window-titlebar {
@@ -484,59 +467,12 @@ body::-webkit-scrollbar {
 }
 
 .custommod-k-card {
-    margin: 0.2em !important;
+    margin: 0.5em !important;
 }
 
-.k-pager-numbers .k-link, .k-link:hover, .k-pager-numbers, .k-link.k-state-hover {
-    border-color: #1062fe;
-    color: #fff !important;
-    background-color: #0f1114;
-}
-
-.k-pager-numbers .k-link.k-state-selected {
-    border: 2px solid #1062fe;
-    color: #1062fe;
-    background-color: #0f1114;
-}
-
-@media only screen and (min-width: 901px) {
-.primary-color-sidebar #sidebar, .primary-color-sidebar #main .header-text {
-    margin-top: -0.5rem;
-    }
-}
-
-.k-tabstrip > .k-content {
-    border-color: #1b2024;
-    background-color: #1b2024;
-}
-
-.k-toolbar {
-    border-color: #1b2024;
-    background-color: #1b2024;
-}
-
-.k-listview-content > .k-state-selected {
-    background-color: #0f1114;
-    border-color: #1062fe;
-}
-/* border for file manager */
-.k-breadcrumb, .k-filemanager {
-    border: none;
-}
-
-/* file manager colours for list view */
-.k-grid tr {
-    border-color: #0f1114;
-    background-color: #0f1114;
-}
-
-.k-grid .k-alt {
-    background-color: #0f1114;
-    border-color: #0f1114;
-}
-
-.k-grid col.k-sorted, .k-grid th.k-sorted {
-    background-color: #0f1114;
+.k-menu-group .k-item:hover, .k-menu-group .k-item.k-state-hover, .k-menu.k-context-menu .k-item:hover, .k-menu.k-context-menu .k-item.k-state-hover {
+    color: white;
+    background-color: #1062fe;
 }
 
 /* fixes for the sub header */
@@ -563,26 +499,32 @@ body::-webkit-scrollbar {
     margin: 0 0 0 0;
     border-top: 1px solid #1062fe;
 }
-
-/* custom font calling */
-
-@font-face {
-    font-family: 'Poppins';
-    src: url("https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2");
+.k-listview {
+    border: 0;
+    background-color: transparent;
 }
 
-body, .k-grid, .k-button, .k-card, .k-tabstrip, .k-listview, .k-filemanager, .k-treeview, .k-breadcrumb, .k-progressbar, .k-input[type=text], .k-textbox>.k-input
-, .k-window, .k-textbox {
-    font-family: 'Poppins', sans-serif;
-}
+.custommod-k-card, .custommod-k-card-image {
+    animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
 
-#mcmodpacksloading, #curseModsloading {
-    bottom: 30px !important;
-    right: 30px !important;
-}
+  }
 
-@media only screen and (max-width: 900px) {
-#sidebar.visible {
-    background-color: #1B2024;
-}
-}
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  

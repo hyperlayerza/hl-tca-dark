@@ -2,7 +2,7 @@
 /* If your theme uses a different css make a copy of this file and place it in your theme's folder                     */
 HTML,
 BODY {
-    background-color: 0;
+    background-color: rgba(0,0,0,0);
     color: rgb(255, 255, 255);
 }
 
@@ -17,11 +17,11 @@ BODY {
 }
 
 a:link, a:visited {
-    color: rgb(16, 98, 254);
+    color: rgb(2, 117, 216);
 }
 
 a:active, a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(2, 96, 178);
 }
 
 .nav-fostrap li:hover {
@@ -148,7 +148,8 @@ a:active, a:hover {
 @media only screen and (max-width:900px) {
     .nav-fostrap,
     .nav-bg-fostrap {
-        background-color: 0;
+        background-color: rgba(0,0,0,0);
+
     }
 
         .nav-bg-fostrap .title-mobile {
@@ -157,6 +158,7 @@ a:active, a:hover {
 
     #sidebar ul,
     #sidebar {
-        background-color: 0;
+        background-color: rgba(0,0,0,0);
+
     }
 }

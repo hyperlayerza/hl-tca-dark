@@ -1,7 +1,7 @@
-﻿body {
-    background-color: #1b2024;
+﻿BODY {
+    background: linear-gradient(135deg,#051866,#021038 80%);
+    color: rgba(224,232,255,.64);
 }
-
 
 #loginSection {
     bottom: 53%;
@@ -17,10 +17,11 @@
 }
 
 #loginSection .frame {
-    border: 1px solid #0f1114;
+    border: 1px solid #DEDFDE;
     padding: 36px 48px 36px;
-    background-color: #0f1114;
-    color: #fff;
+    background: linear-gradient(#091f6e,#031557 99%);
+    border-color: #051866;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,.08);
 }
 
 #loginSection .k-dropdown,
@@ -53,7 +54,6 @@
 
 #loginSection .field-validation-error {
     display: block;
-    color: red;
 }
 
 #loginSection .validation-summary-errors ul {
@@ -73,7 +73,7 @@
 }
 
 .k-textbox {
-    background-color: #1b2024;
+    background-color: rgba(224,232,255,.08);
     border-color: transparent;
     display: block;
     height: 42px;
@@ -87,23 +87,24 @@
 }
 
 .k-textbox:hover {
-    background-color: #1b2024;
+    background-color: rgba(224,232,255,.08);
     outline: 0;
     border-color: transparent;
 }
 
 
 .k-textbox:focus {
-    background-color: #1b2024 !important;
+    background-color: rgba(224,232,255,.16)!important;
     transition: .24s;
     border-color: transparent;
 }
 
 
 .k-textbox:focus, .k-textbox.k-state-focus, .k-textbox.k-state-focused, .k-textarea:focus, .k-textarea.k-state-focus, .k-textarea.k-state-focused {
-    border-color:  #1b2024;
+    border-color:  rgba(224,232,255,.09);
     color: #fff;
-    background-color:  #1b2024;
+    background-color:  rgba(224,232,255,.09);
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.08) !important;
 }
 
 option, select, textarea, input[type=password], input[type=text] {
@@ -129,16 +130,28 @@ ul {
     background-color: #1062fe;
     border-color: #1062fe;
 }
+.k-button:hover {
+    color: #fff;
+    background-color: #015abe;
+    border-color: #015abe;
+}
 
-a:hover {
-    color: #1062fe;
-    text-decoration: underline;
+.k-button.k-primary:hover, .k-button.k-primary.k-state-hover {
+    color: #fff;
+    background-color: #015abe;
+    border-color: #015abe;
 }
 
 .k-checkbox {
     border-color: transparent;
     color: #fff;
-    background-color: #1b2024;
+    background-color: rgba(224,232,255,.08);
+}
+
+.k-checkbox:hover {
+    border-color: rgba(224,232,255,.08);
+    color: #fff;
+    background-color: rgba(224,232,255,.08);
 }
 
 .remember-me {
@@ -161,8 +174,8 @@ a:hover {
 .logincontainer-footer {
     background-color: transparent;
     margin-top: 20px;
-    margin-bottom: 20px;
     border-top: 0;
+    margin-bottom: 20px;
 }
 
 a:hover {
@@ -170,7 +183,7 @@ a:hover {
 }
 
 .divider .divider-title {
-    background: #0f1114;
+    background: #031557;
     font-size: 12px;
     letter-spacing: 1px;
     padding: 0 20px;
@@ -190,10 +203,14 @@ a:hover {
 }
 
 .btn-Discord {
-    background-color: #5865F2;
-    border-color: #5865F2;
+    background-color: #7289DA;
+    border-color: #7289DA;
     color: #dcddde !important;
     width: 85%;
+}
+.btn-Discord:hover {
+    background-color: #5470d2;
+    border-color: #4a67cf;
 }
 
 .btn-Google {
@@ -225,8 +242,8 @@ a:hover {
 }
 
 .btn-Whmcs {
-    background-color: #1062fe;
-    border-color: #1062fe;
+    background-color: #288feb;
+    border-color: #288feb;
 }
 
 .btn-Facebook:hover {
@@ -275,7 +292,7 @@ a:hover {
 }
 
 #creden-alert  {
-	background: #0f1114;
+	background: linear-gradient(#091f6e,#031557 99%);
 
 }
 @keyframes border-pulse {
@@ -315,7 +332,3 @@ a:hover {
     border: 3px solid red;
     animation: border-pulse 2s infinite;
 }
-
-
-
-
